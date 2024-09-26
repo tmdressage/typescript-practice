@@ -11,7 +11,7 @@ import { User } from "./types/user";
 import { UserProfile } from "./UserProfile";
 import { UserCard } from "./components/UserCard";
 import { useAllUsers } from "./hooks/useAllUsers";
-import "./styles.css";
+// import "./styles.css";
 
 export default function App() {
   const [todos, setTodos] = useState<Array<TodoType>>([]);
